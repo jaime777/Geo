@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+	//
 	//Declarando Variables
 	TextView coordenadas; //Mostrara las coordenadas
 	Button iniciarService; //Boton que iniciara el servicio de localizacion
