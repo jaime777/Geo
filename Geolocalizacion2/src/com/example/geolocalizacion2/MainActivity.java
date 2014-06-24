@@ -12,12 +12,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-
-	//
 	//Declarando Variables
+	Spinner tipo;	//seleccion de opcion de localizacion
 	TextView coordenadas; //Mostrara las coordenadas
 	Button iniciarService; //Boton que iniciara el servicio de localizacion
 	Button detenerService; //Boton que detendra el servicio de localizacion
